@@ -1,5 +1,5 @@
 # CC_Tool
-<a href="https://colorcompass.jp/colorcompass/colorcompasmfa/" align="center"><img height="200" src="https://colorcompass.jp/wp-content/uploads/2022/06/cropped-logo.png"/></a>
+<a href="https://colorcompass.jp/colorcompass/colorcompasmfa/"><img height="200" align="center" src="https://colorcompass.jp/wp-content/uploads/2022/06/cropped-logo.png"/></a>
 <details>
 <summary align="center">=============================================================</summary>
 
