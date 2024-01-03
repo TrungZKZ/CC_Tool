@@ -1,0 +1,15 @@
+REGEDIT
+; This .REG file may be used by the SETUP program.
+; If the SETUP program is not available, the following entry is in CWinApp::RegisterShellFileTypes
+; and automatically during InitInstance with a call to COleObjectFactory::UpdateRegistryAll
+; will be registered.
+
+HKEY_CLASSES_ROOT\.cctd = CCTool.Document
+HKEY_CLASSES_ROOT\CCTool.Document\shell\open\command = CC_Tool.EXE %1
+HKEY_CLASSES_ROOT\CCTool.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\CCTool.Document\shell\open\ddeexec\application = CC_Tool
+     ; Note: Application is optional.
+     ; (The application name for "command" is the default.)
+
+HKEY_CLASSES_ROOT\CCTool.Document = CC_Tool.Document
+
