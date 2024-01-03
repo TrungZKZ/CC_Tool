@@ -23,51 +23,51 @@ CC_Tool.h</br>
     Tệp này chứa các tiêu đề dành riêng cho dự án khác, </br>
     bao gồm Resource.h, khai báo lớp ứng dụng CCC_ToolApp
 
-CC_Tool.cpp
+CC_Tool.cpp</br>
     Đây là tệp nguồn ứng dụng chính chứa lớp ứng dụng CCC_ToolApp.
 
-CC_Tool.rc
-    Đây là tệp liệt kê các tài nguyên Microsoft Windows được chương trình sử dụng. 
-    Tệp này chứa các biểu tượng, bitmap và con trỏ được lưu trữ trong thư mục con RES. 
-    Tập tin này có thể được chỉnh sửa trực tiếp trong Microsoft Visual C++. 
+CC_Tool.rc</br>
+    Đây là tệp liệt kê các tài nguyên Microsoft Windows được chương trình sử dụng. </br>
+    Tệp này chứa các biểu tượng, bitmap và con trỏ được lưu trữ trong thư mục con RES. </br>
+    Tập tin này có thể được chỉnh sửa trực tiếp trong Microsoft Visual C++. </br>
     Tài nguyên dự án có thể được tìm thấy tại 1041.
 
-res\CC_Tool.ico
-    Đây là một tập tin biểu tượng được sử dụng làm biểu tượng của ứng dụng. 
+res\CC_Tool.ico</br>
+    Đây là một tập tin biểu tượng được sử dụng làm biểu tượng của ứng dụng. </br>
     Biểu tượng này được bao gồm trong tệp tài nguyên chính CC_Tool.rc.
 
-res\CC_Tool.rc2
-    Tệp này chứa các tài nguyên đã được chỉnh sửa bên ngoài Microsoft Visual C++. 
+res\CC_Tool.rc2</br>
+    Tệp này chứa các tài nguyên đã được chỉnh sửa bên ngoài Microsoft Visual C++. </br>
     Đặt bất kỳ tài nguyên nào không thể chỉnh sửa được trong trình chỉnh sửa tài nguyên trong tệp này.
-CC_Tool.reg
-    Tệp đăng ký này là một tệp mẫu trình bày cách định cấu hình đăng ký cho khung. 
-    Sử dụng nó dưới dạng tệp .reg với ứng dụng của bạn hoặc xóa nó 
+    
+CC_Tool.reg</br>
+    Tệp đăng ký này là một tệp mẫu trình bày cách định cấu hình đăng ký cho khung. </br>
+    Sử dụng nó dưới dạng tệp .reg với ứng dụng của bạn hoặc xóa nó </br>
     và sử dụng RegisterShellFileTypes đăng ký mặc định.
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-Cửa sổ khung chính:
+Cửa sổ khung chính:</br>
      Dự án chứa các giao diện MFC tiêu chuẩn.
 
-MainFrm.h, MainFrm.cpp
-    Các tệp này chứa lớp khung CMainFrame.
-    Lớp khung bắt nguồn từ CFrameWnd 
+MainFrm.h, MainFrm.cpp</br>
+    Các tệp này chứa lớp khung CMainFrame.</br>
+    Lớp khung bắt nguồn từ CFrameWnd </br>
     và kiểm soát tất cả chức năng của khung SDI.
 
-res\Thanh công cụ.bmp
-    Tệp bitmap này sẽ được sử dụng làm hình ảnh ô thanh công cụ. 
-    Thanh công cụ và thanh trạng thái ban đầu được tạo trong lớp CMainFrame. 
-    Để thêm nút thanh công cụ, hãy chỉnh sửa bitmap thanh công cụ này bằng Trình chỉnh sửa tài nguyên 
+res\Thanh công cụ.bmp</br>
+    Tệp bitmap này sẽ được sử dụng làm hình ảnh ô thanh công cụ. </br>
+    Thanh công cụ và thanh trạng thái ban đầu được tạo trong lớp CMainFrame. </br>
+    Để thêm nút thanh công cụ, hãy chỉnh sửa bitmap thanh công cụ này bằng Trình chỉnh sửa tài nguyên </br>
     và cập nhật mảng Thanh công cụ IDR_MAINFRAME trong tệp CC_Tool.rc.
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-Trình hướng dẫn ứng dụng tạo một loại tài liệu và một dạng xem:
+Trình hướng dẫn ứng dụng tạo một loại tài liệu và một dạng xem:</br>
 
-CC_ToolDoc.h, CC_ToolDoc.cpp - Tài liệu Các tệp này chứa lớp CCC_ToolDoc. 
-Chỉnh sửa các tệp này để thêm dữ liệu tài liệu đặc biệt, 
-lưu tệp và tải (thông qua CCC_ToolDoc::Serialize).
+CC_ToolDoc.h, CC_ToolDoc.cpp - Tài liệu Các tệp này chứa lớp CCC_ToolDoc. </br>
+Chỉnh sửa các tệp này để thêm dữ liệu tài liệu đặc biệt,lưu tệp và tải (thông qua CCC_ToolDoc::Serialize).
 
      Tài liệu chứa chuỗi sau:
          Phần mở rộng tập tin: cctd
