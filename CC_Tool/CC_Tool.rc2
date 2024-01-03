@@ -1,0 +1,13 @@
+//
+// CC_Tool.rc2 --Microsoft Visual C ++ resources that are not edited directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error This file cannot be edited in Microsoft Visual C ++.
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// It will be edited manually and add sauce here ...
+
+/////////////////////////////////////////////////////////////////////////////
