@@ -12,16 +12,16 @@ của các Lớp nền tảng của Microsoft.</br> Vui lòng sử dụng nó l�
 
 Bài viết này chứa mô tả ngắn gọn về từng tệp tạo nên ứng dụng CC_Tool.
 
-CC_Tool.vcproj
-    Đây là tệp dự án chính cho dự án VC++ được tạo bởi Trình hướng dẫn ứng dụng.
-    Chứa thông tin phiên bản của Visual C++ nơi tệp được tạo.
-    Nó cũng bao gồm thông tin về nền tảng,cấu hình và 
+CC_Tool.vcproj</br>
+    Đây là tệp dự án chính cho dự án VC++ được tạo bởi Trình hướng dẫn ứng dụng.</br>
+    Chứa thông tin phiên bản của Visual C++ nơi tệp được tạo.</br>
+    Nó cũng bao gồm thông tin về nền tảng,cấu hình và </br>
     các tính năng của dự án được chọn trong Trình hướng dẫn ứng dụng.
 
-CC_Tool.h
-    Đây là tệp tiêu đề chính cho ứng dụng của bạn. 
-    Tệp này chứa các tiêu đề dành riêng cho dự án khác, 
-    bao gồm Resource.h, khai báo lớp ứng dụng CCC_ToolApp.
+CC_Tool.h</br>
+    Đây là tệp tiêu đề chính cho ứng dụng của bạn. </br>
+    Tệp này chứa các tiêu đề dành riêng cho dự án khác, </br>
+    bao gồm Resource.h, khai báo lớp ứng dụng CCC_ToolApp
 
 CC_Tool.cpp
     Đây là tệp nguồn ứng dụng chính chứa lớp ứng dụng CCC_ToolApp.
