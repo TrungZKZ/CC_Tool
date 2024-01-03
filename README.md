@@ -53,8 +53,7 @@ Cửa sổ khung chính:</br>
 
 MainFrm.h, MainFrm.cpp</br>
     Các tệp này chứa lớp khung CMainFrame.</br>
-    Lớp khung bắt nguồn từ CFrameWnd </br>
-    và kiểm soát tất cả chức năng của khung SDI.
+    Lớp khung bắt nguồn từ CFrameWnd và kiểm soát tất cả chức năng của khung SDI.
 
 res\Thanh công cụ.bmp</br>
     Tệp bitmap này sẽ được sử dụng làm hình ảnh ô thanh công cụ. </br>
@@ -113,21 +112,5 @@ Trình hướng dẫn ứng dụng sử dụng các nhận xét bắt đầu b�
 
 Nếu ứng dụng của bạn sử dụng MFC trong một DLL được chia sẻ, bạn phải phân phối lại MFC DLL. 
 Ngoài ra, nếu ứng dụng của bạn sử dụng ngôn ngữ không phải là ngôn ngữ của hệ điều hành, bạn cũng phải phân phối lại tài nguyên được bản địa hóa tương ứng MFC90XXX.DLL. Để biết thêm thông tin về các chủ đề này, hãy xem phần Phân phối lại ứng dụng Visual C++ của tài liệu MSDN.
-
-////////////////////////////////////////////////////////////////////////////////////////////
-
-
-lịch sử:
-Ngày 12 tháng 4 năm 2023
-                             Sửa đổi đáng kể kế hoạch đo lường.
-                                 1. Cho phép đặt phạm vi thời gian đo.
-                                 2. Đồng thời khi đo có thể lưu vào file kèm theo ghi chú bổ sung.
-                                 3. Đặt phiên bản thành 1.5.
-Ngày 20 tháng 4 năm 2023
-                             Khắc phục sự cố trong đó tệp được tạo mỗi khi ngày bị vượt qua.
-                             Đặt phiên bản thành 1.6.
-
-Ngày 2 tháng 9 năm 2023 (hiện tại chưa thêm vào code)
-                             Thêm khả năng hiển thị và lưu các hệ số bước sóng, giá trị bước sóng, độ tối, độ lợi, v.v.
 
 </details>
