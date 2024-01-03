@@ -8,7 +8,7 @@ Thư viện MICROSOFT FOUNDATION CLASS: CC_Tool Tổng quan về dự án
 =======================================================================================
 
 CC_Tool được tạo bởi Trình hướng dẫn ứng dụng thể hiện cách sử dụng cơ bản
-của các Lớp nền tảng của Microsoft. Vui lòng sử dụng nó làm mẫu để tạo ứng dụng.
+của các Lớp nền tảng của Microsoft.</br> Vui lòng sử dụng nó làm mẫu để tạo ứng dụng.
 
 Bài viết này chứa mô tả ngắn gọn về từng tệp tạo nên ứng dụng CC_Tool.
 
