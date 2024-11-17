@@ -104,6 +104,7 @@ CC_Tool.manifest
     Các tệp kê khai ứng dụng được sử dụng trong Windows XP để mô tả sự phụ thuộc của ứng dụng vào các phiên bản cụ thể của các tập hợp song song. 
     Trình tải sử dụng thông tin này để tải tập hợp thích hợp từ bộ nhớ đệm của tập hợp hoặc tập hợp riêng từ ứng dụng. 
     Tệp kê khai ứng dụng được đưa vào để phân phối lại dưới dạng tệp .manifest bên ngoài được cài đặt trong cùng thư mục với ứng dụng thực thi hoặc được đưa vào tệp thực thi dưới dạng tài nguyên.
+
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 Các ghi chú khác:
